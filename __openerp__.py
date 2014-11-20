@@ -1,10 +1,10 @@
 {
     "name" : "Additional fields to employee",
-    "version" : "1.0",
-    "author" : "L",
+    "version" : "1.1",
+    "author" : "Laura",
     "category" : "Generic Modules/Human Resources",
     "website" : "-",
-    "description": "Adds field employee number on employee.",
+    "description": "Adds fields 'employee #', 'Hukou', 'shebao #' & 'join company date' on employee.",
     "depends" : ["hr"],
     "init_xml" : [],
     "update_xml" : ["hr_view.xml"],
