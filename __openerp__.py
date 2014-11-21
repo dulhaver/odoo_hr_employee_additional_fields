@@ -1,6 +1,6 @@
 {
     "name" : "Additional fields to employee",
-    "version" : "1.1",
+    "version" : "8.0",
     "author" : "Laura",
     "category" : "Generic Modules/Human Resources",
     "website" : "-",
