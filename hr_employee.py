@@ -7,8 +7,7 @@ class hr_employee(osv.osv):
         'emp_number': fields.integer('Employee Number', size=16),
         'shebao_number': fields.char('She Bao #', size=64),
         'hukou': fields.char('Hu Kou', size=64),
-### new field added
-        'join company date': fields.date('join company Date', size=8),
+        'join_company_date': fields.date('Join company Date', size=8),  # added
     }
     
 hr_employee()
