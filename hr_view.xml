@@ -8,7 +8,7 @@
 	<field name="arch" type="xml">
 	  <field name="work_location" position="after">
 	    <field name="emp_number"/>
-	    <field name="join_company_date"/>  # added 141121
+	    <field name="join_company_date"/>
 	  </field>
 	  <field name="otherid" position="after">
 	    <field name="shebao_number"/>
