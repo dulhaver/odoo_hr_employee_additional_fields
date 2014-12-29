@@ -1,6 +1,6 @@
-from openerp.osv import fields,osv
+from openerp import models, fields
 
-class hr_employee(osv.osv):
+class hr_employee(orm.Model):
     _inherit = 'hr.employee'
 
     _columns = {
