@@ -1,4 +1,5 @@
-from openerp.osv import fields,osv
+from openerp.osv import fields, osv
+
 
 class hr_employee(osv.osv):
     _inherit = 'hr.employee'
@@ -9,5 +10,5 @@ class hr_employee(osv.osv):
         'hukou': fields.char('Hu Kou', size=64),
         'join_company_date': fields.date('Join company Date', size=8),
     }
-    
+
 hr_employee()
