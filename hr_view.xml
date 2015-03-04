@@ -13,6 +13,7 @@
 	  <field name="otherid" position="after">
 	    <field name="shebao_number"/>
 	    <field name="hukou"/>
+	    <field name="visa_expiry_date"/>
 	  </field>
 	  
 	</field>
