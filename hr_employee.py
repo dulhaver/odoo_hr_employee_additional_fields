@@ -8,6 +8,7 @@ class hr_employee(osv.osv):
         'shebao_number': fields.char('She Bao #', size=64),
         'hukou': fields.char('Hu Kou', size=64),
         'join_company_date': fields.date('Join company Date', size=8),
+        'visa_expiry_date': fields.date('Visa expiry date', size=8),
     }
 
 hr_employee()
